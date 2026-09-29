@@ -18,21 +18,22 @@ config="ae2.mixins.json"
 [[dependencies.ae2]]
     modId="neoforge"
     type="REQUIRED"
-    versionRange="${neoforge_version_range}"
+    versionRange="[26.2,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.ae2]]
     modId="minecraft"
     type="REQUIRED"
-    versionRange="[${minecraft_version}]"
+    versionRange="[26.2,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.ae2]]
     modId="guideme"
-    type="REQUIRED"
-    versionRange="[${guideme_version},)"
+    type="OPTIONAL"
+    versionRange="[26.1,)"
+    ordering="AFTER"
     side="BOTH"
 
 [[dependencies.ae2]]
@@ -44,21 +45,17 @@ config="ae2.mixins.json"
 [[dependencies.ae2]]
     modId="jei"
     type="OPTIONAL"
-    versionRange="[${jei_version},)"
+    versionRange="[30.0,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.ae2]]
     modId="jade"
     type="OPTIONAL"
-    versionRange="${jade_version_range}"
+    versionRange="[26.0,)"
     ordering="AFTER"
     side="BOTH"
 
-
-# VanillaFix caused us grief in the past
-# https://github.com/8034
-# https://github.com/7539
 [[dependencies.ae2]]
     modId="vanillafix"
     type="discouraged"
