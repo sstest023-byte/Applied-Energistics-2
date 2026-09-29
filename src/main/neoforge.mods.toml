@@ -2,7 +2,7 @@ modLoader="javafml"
 loaderVersion="[1,)"
 logoFile="logo.png"
 license="See GitHub repository for details"
-issueTrackerURL="https://github.com/AppliedEnergistics/Applied-Energistics-2/issues"
+issueTrackerURL="https://github.com"
 
 [[mods]]
 modId="ae2"
@@ -57,8 +57,8 @@ config="ae2.mixins.json"
 
 
 # VanillaFix caused us grief in the past
-# https://github.com/AppliedEnergistics/Applied-Energistics-2/issues/8034
-# https://github.com/AppliedEnergistics/Applied-Energistics-2/issues/7539
+# https://github.com/8034
+# https://github.com/7539
 [[dependencies.ae2]]
     modId="vanillafix"
     type="discouraged"
