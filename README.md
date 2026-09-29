@@ -3,7 +3,7 @@
 [![Latest PreRelease](https://img.shields.io/github/v/release/AppliedEnergistics/Applied-Energistics-2?include_prereleases&style=flat-square&label=Pre)](https://github.com/AppliedEnergistics/Applied-Energistics-2/releases)
 
 [![Maven Central Version](https://img.shields.io/maven-central/v/org.appliedenergistics/appliedenergistics2)](https://central.sonatype.com/artifact/org.appliedenergistics/appliedenergistics2)
-
+   
 # Applied Energistics 2
 
 ## Table of Contents
